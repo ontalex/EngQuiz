@@ -1,0 +1,50 @@
+[
+    {
+        "id": "001",
+        "question": {
+            "type": "text",
+            "text": "Question 1"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "Text 1"
+            },
+            {
+                "type": "text",
+                "text": "Text 2"
+            },
+            {
+                "type": "text",
+                "text": "Text 3"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 0
+        }
+    },
+    {
+        "id": "002",
+        "question": {
+            "type": "text",
+            "text": "Question 2"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "Text 1"
+            },
+            {
+                "type": "text",
+                "text": "Text 2"
+            },
+            {
+                "type": "text",
+                "text": "Text 3"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 0
+        }
+    }
+]

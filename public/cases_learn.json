@@ -1,0 +1,138 @@
+[
+    {
+        "id": "000",
+        "title": "600 x 600",
+        "pic": {
+            "src": "https://via.placeholder.com/600/771796",
+            "alt": "..."
+        },
+        "audios": [
+            {
+                "language": "eng",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/uk.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            },
+            {
+                "language": "ru",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/ru.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            },
+            {
+                "language": "chn",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/cn.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            }
+        ]
+    },
+    {
+        "id": "001",
+        "title": "600 x 600",
+        "pic": {
+            "src": "https://via.placeholder.com/600/324442",
+            "alt": "..."
+        },
+        "audios": [
+            {
+                "language": "eng",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/uk.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            },
+            {
+                "language": "ru",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/ru.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            },
+            {
+                "language": "chn",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/cn.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            }
+        ]
+    },
+    {
+        "id": "002",
+        "title": "600 x 600",
+        "pic": {
+            "src": "https://via.placeholder.com/600/324442",
+            "alt": "..."
+        },
+        "audios": [
+            {
+                "language": "eng",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/uk.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            },
+            {
+                "language": "ru",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/ru.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            },
+            {
+                "language": "chn",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/cn.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            }
+        ]
+    },
+    {
+        "id": "003",
+        "title": "600 x 600",
+        "pic": {
+            "src": "https://via.placeholder.com/600/324442",
+            "alt": "..."
+        },
+        "audios": [
+            {
+                "language": "eng",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/uk.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            },
+            {
+                "language": "ru",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/ru.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            },
+            {
+                "language": "chn",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/cn.svg",
+                "alt": "#",
+                "text_origin": "...",
+                "text_translate": "..."
+            }
+        ]
+    }
+]
