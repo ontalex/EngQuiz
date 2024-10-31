@@ -10,6 +10,12 @@ export interface ILearnCaseAudio {
 export interface ILearnCase {
     id: number,
     title: string,
+    desc: {
+        leng: string,
+        icon: string,
+        title: string,
+        text: string
+    }[],
     pic: {
         src: string,
         alt: string

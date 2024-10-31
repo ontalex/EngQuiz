@@ -1,5 +1,5 @@
 export default function Error() {
     return (
-        <div>Error</div>
+        <div className="text-center">Error</div>
     )
 }

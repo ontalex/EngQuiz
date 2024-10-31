@@ -1,104 +1,3 @@
-// import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-// import { ITest } from "../pages/Test/Test";
-// import axios from "axios";
-
-// export interface ITestStore {
-//     current_state: number,
-//     count_variants: number,
-//     varians: ITest[],
-//     statistic: {
-//         good_answered: number,
-//         total: number
-//     }
-//     answers_user: TStoreAnswer[],
-//     is_end: boolean
-// }
-
-// type TStoreAnswer = {
-//     id: number,
-//     answer: number,
-//     is_good?: boolean
-// }
-
-// const data_test = createAsyncThunk('test/fetchTestData', async (initialTest, thunkAPI) => {
-//     try {
-//         const req = await axios("/cases_test.json");
-//         return req.data;
-//     } catch (error) {
-//         return thunkAPI.rejectWithValue({ error: error.message })
-//     }
-// });
-
-// const initial: ITestStore = {
-//     current_state: 0,
-//     answers_user: [],
-//     varians: [],
-//     statistic: {
-//         good_answered: 0,
-//         total: 0
-//     },
-//     is_end: false,
-//     count_variants: 0
-// }
-
-
-// const data = localStorage.getItem("test_data");
-
-// const testSlice = createSlice({
-//     name: "test",
-//     initialState: data ? JSON.parse(data) : initial,
-//     reducers: {
-//         next_task(state: ITestStore) {
-//             // Переход на следующий тест
-
-//             console.group('next_task')
-//             console.log("Переход на следующий тест");
-//             console.log(state.current_state);
-//             console.groupEnd()
-
-//             state.current_state++;
-//             state.is_end = state.current_state == state.statistic.total;
-//         },
-
-//         clean() {
-//             // Очистка сохранённых данные
-
-//             localStorage.removeItem("test_data");
-//             return {
-//                 ...initial
-//             }
-//         },
-
-//         async create_answering(state: ITestStore, action) {
-//             // Внесение ответа пользователя в состояние
-//             console.group('create answering');
-//             console.log("State:", state);
-//             console.log("Action:", action);
-
-//             const case_test_find = state.varians.filter((item) => item.id == action.payload.id);
-
-//             state.answers_user.push({
-//                 id: action.payload.id,
-//                 answer: action.payload.answer_index,
-//                 is_good: case_test_find[0].answer.good_answer_index == action.payload.answer_index
-//             })
-
-//             if (case_test_find[0].answer.good_answer_index == action.payload.answer_index) {
-//                 state.statistic.good_answered++
-//             }
-
-//             console.log("Store-current_state:", state.current_state);
-//             console.log("Answers-answers_user:", state.answers_user);
-
-//             console.groupEnd();
-//         }
-//     }
-// }
-// )
-
-// export const { next_task, clean, create_answering } = testSlice.actions;
-// export default testSlice.reducer;
-
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ITest } from "../pages/Test/Test";
 import axios from "axios";
@@ -128,6 +27,7 @@ export const data_test: any = createAsyncThunk('test/fetchTestData', async (_, t
     try {
         const req = await axios("/cases_test.json");
         return req.data;
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
         return thunkAPI.rejectWithValue({ error: "Some Error!" });
     }

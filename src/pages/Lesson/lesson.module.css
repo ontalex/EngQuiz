@@ -1,0 +1,19 @@
+.page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr;
+
+    height: 100%;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+
+}
+
+.input:checked+.item_leng {
+    background-color: #387D82;
+    color: #FFFBFC;
+    font-weight: medium;
+}

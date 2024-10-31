@@ -1,5 +1,8 @@
-export const LoadingStatus = () => {
+import { joinStyle } from "../../utils/styles";
+import st from "./loading.module.css";
+
+export default function LoadingStatus() {
     return (
-        <div>LoadingStatus</div>
+        <span className={joinStyle(st.loader, "m-8 mx-auto text-center")}></span>
     )
 }

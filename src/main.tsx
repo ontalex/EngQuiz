@@ -9,7 +9,7 @@ const Test = lazy(() => import("./pages/Test/Test.tsx"));
 
 import Error from "./pages/Error/Error.tsx";
 
-import { LoadingStatus } from './components/LoadingStatus/index.tsx';
+import LoadingStatus from './components/LoadingStatus/';
 
 import { Provider } from 'react-redux';
 import { store } from "./stores/storeTest.ts";
