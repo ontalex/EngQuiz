@@ -1,26 +1,38 @@
 [
     {
         "id": "000",
-        "title": "600 x 600",
+        "title": "Материнская плата",
+        "desc": [
+            {
+                "leng": "rus",
+                "icon": "/icons/ru.svg",
+                "title": "Материнская плата",
+                "text": "Печатная плата представляющая собой основу конструкций различных электронных устройств."
+            },
+            {
+                "leng": "eng",
+                "icon": "/icons/uk.svg",
+                "title": "Motherboard",
+                "text": "A printed circuit board, which is the basis of the designs of various electronic devices."
+            },
+            {
+                "leng": "chn",
+                "icon": "/icons/cn.svg",
+                "title": "主板 (zhú bǎn)",
+                "text": "印刷电路板，是各种电子设备设计的基础 (yìnshuā diànlù bǎn，shì gè zhǒng diànzi shèbèi shèjì de jīchǔ)"
+            }
+        ],
         "pic": {
-            "src": "https://via.placeholder.com/600/771796",
-            "alt": "..."
+            "src": "/pictures/matherboard.jpg",
+            "alt": "Материнская плата"
         },
         "audios": [
             {
                 "language": "eng",
                 "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/uk.svg",
-                "alt": "#",
-                "text_origin": "...",
-                "text_translate": "..."
-            },
-            {
-                "language": "ru",
-                "src": "/sounds/sample-6s.wav",
-                "language_icon": "/icons/ru.svg",
-                "alt": "#",
-                "text_origin": "...",
+                "alt": "Motherboard",
+                "text_origin": "Motherboard",
                 "text_translate": "..."
             },
             {
@@ -28,17 +40,37 @@
                 "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/cn.svg",
                 "alt": "#",
-                "text_origin": "...",
+                "text_origin": "主板 (zhú bǎn)",
                 "text_translate": "..."
             }
         ]
     },
     {
         "id": "001",
-        "title": "600 x 600",
+        "title": "Монитор",
+        "desc": [
+            {
+                "leng": "rus",
+                "title": "Монитор",
+                "icon": "/icons/ru.svg",
+                "text": "Это устройство визуального вывода, которое отображает информацию, поступающую от компьютера"
+            },
+            {
+                "leng": "eng",
+                "title": "Monitor",
+                "icon": "/icons/uk.svg",
+                "text": "It is a visual output device that displays information coming from a computer"
+            },
+            {
+                "leng": "chn",
+                "title": "显示器 (xiǎn shì qì)",
+                "icon": "/icons/cn.svg",
+                "text": "它是一个视觉输出设备，显示来自计算机的信息 (tā shì yī gè shìjué shūchū shèbèi，xiǎnshì láizì jìsuànjī de xìnxī)"
+            }
+        ],
         "pic": {
-            "src": "https://via.placeholder.com/600/324442",
-            "alt": "..."
+            "src": "/pictures/monitor.jpg",
+            "alt": "Монитор"
         },
         "audios": [
             {
@@ -46,15 +78,7 @@
                 "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/uk.svg",
                 "alt": "#",
-                "text_origin": "...",
-                "text_translate": "..."
-            },
-            {
-                "language": "ru",
-                "src": "/sounds/sample-6s.wav",
-                "language_icon": "/icons/ru.svg",
-                "alt": "#",
-                "text_origin": "...",
+                "text_origin": "Monitor",
                 "text_translate": "..."
             },
             {
@@ -62,17 +86,37 @@
                 "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/cn.svg",
                 "alt": "#",
-                "text_origin": "...",
+                "text_origin": "显示器 (xiǎn shì qì)",
                 "text_translate": "..."
             }
         ]
     },
     {
         "id": "002",
-        "title": "600 x 600",
+        "title": "Компьютерная мышь",
+        "desc": [
+            {
+                "leng": "rus",
+                "icon": "/icons/ru.svg",
+                "title": "Компьютерная мышь",
+                "text": "Устройство для управления курсором и отдачи различных команд компьютеру"
+            },
+            {
+                "leng": "eng",
+                "icon": "/icons/uk.svg",
+                "title": "Computer mouse",
+                "text": "A device for controlling the cursor and giving various commands to the computer"
+            },
+            {
+                "leng": "chn",
+                "icon": "/icons/cn.svg",
+                "title": "鼠标 (shǔ biāo)",
+                "text": "控制光标并向计算机发出各种命令的设备 (kòngzhì guāngbiāo bìng xiàng jìsuànjī fāchū gè zhǒng mìnglìng de shèbèi)"
+            }
+        ],
         "pic": {
-            "src": "https://via.placeholder.com/600/324442",
-            "alt": "..."
+            "src": "/pictures/mouse.jpg",
+            "alt": "Компьютерная мышь"
         },
         "audios": [
             {
@@ -80,15 +124,7 @@
                 "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/uk.svg",
                 "alt": "#",
-                "text_origin": "...",
-                "text_translate": "..."
-            },
-            {
-                "language": "ru",
-                "src": "/sounds/sample-6s.wav",
-                "language_icon": "/icons/ru.svg",
-                "alt": "#",
-                "text_origin": "...",
+                "text_origin": "Computer mouse",
                 "text_translate": "..."
             },
             {
@@ -96,17 +132,37 @@
                 "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/cn.svg",
                 "alt": "#",
-                "text_origin": "...",
+                "text_origin": "鼠标 (shǔ biāo)",
                 "text_translate": "..."
             }
         ]
     },
     {
         "id": "003",
-        "title": "600 x 600",
+        "title": "Корпус компьютера",
+        "desc": [
+            {
+                "leng": "rus",
+                "icon": "/icons/ru.svg",
+                "title": "Корпус компьютера",
+                "text": "Функциональный элемент, защищающий внутренние компоненты компьютера от внешнего воздействия и механических повреждений"
+            },
+            {
+                "leng": "eng",
+                "icon": "/icons/uk.svg",
+                "title": "Computer case",
+                "text": "A functional element that protects the internal components of the computer from external influences and mechanical damage"
+            },
+            {
+                "leng": "chn",
+                "icon": "/icons/cn.svg",
+                "title": "机箱 (jīxiāng)",
+                "text": "保护计算机内部组件免受外部影响和机械损坏的功能元件 (bǎohù jìsuànjī nèibù zǔjiàn miǎn shòu wàibù yǐngxiǎng hé jīxiè sǔnhuài de gōngnéng yuánjiàn)"
+            }
+        ],
         "pic": {
-            "src": "https://via.placeholder.com/600/324442",
-            "alt": "..."
+            "src": "/pictures/box.jpg",
+            "alt": "Корпус компьютера"
         },
         "audios": [
             {
@@ -114,15 +170,7 @@
                 "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/uk.svg",
                 "alt": "#",
-                "text_origin": "...",
-                "text_translate": "..."
-            },
-            {
-                "language": "ru",
-                "src": "/sounds/sample-6s.wav",
-                "language_icon": "/icons/ru.svg",
-                "alt": "#",
-                "text_origin": "...",
+                "text_origin": "Computer case",
                 "text_translate": "..."
             },
             {
@@ -130,7 +178,53 @@
                 "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/cn.svg",
                 "alt": "#",
-                "text_origin": "...",
+                "text_origin": "机箱 (jīxiāng)",
+                "text_translate": "..."
+            }
+        ]
+    },
+    {
+        "id": "004",
+        "title": "Клавиатура",
+        "desc": [
+            {
+                "leng": "rus",
+                "icon": "/icons/ru.svg",
+                "title": "Клавиатура",
+                "text": "Устройство ввода. Представляет собой набор кнопок, расположенных в определённом порядке"
+            },
+            {
+                "leng": "eng",
+                "icon": "/icons/uk.svg",
+                "title": "Keyboard",
+                "text": "The input device. It is a set of buttons arranged in a certain order"
+            },
+            {
+                "leng": "chn",
+                "icon": "/icons/cn.svg",
+                "title": "键盘 (jiàn pán)",
+                "text": "输入设备。它是一组按一定顺序排列的按钮 (shūrù shèbèi. tā shì yī zǔ àn yīdìng shùnxù páiliè de ànniǔ)"
+            }
+        ],
+        "pic": {
+            "src": "/pictures/keyboard.jpg",
+            "alt": "Клавиатура"
+        },
+        "audios": [
+            {
+                "language": "eng",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/uk.svg",
+                "alt": "#",
+                "text_origin": "Keyboard",
+                "text_translate": "..."
+            },
+            {
+                "language": "chn",
+                "src": "/sounds/sample-6s.wav",
+                "language_icon": "/icons/cn.svg",
+                "alt": "#",
+                "text_origin": "键盘 (jiàn pán)",
                 "text_translate": "..."
             }
         ]

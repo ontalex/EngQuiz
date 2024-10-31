@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
 import { ILearnCase } from '../../global_learn_cong.ts';
 import useFetch from '../../hooks/getLearn.ts';
-import React from 'react';
 
 import st from "./Cotalog.module.css";
-import { splitStyle } from '../../utils/styles.ts';
+import { joinStyle } from '../../utils/styles.ts';
+import LinkComponent from '../../components/LinkComponent/index.tsx';
+import LoadingStatus from '../../components/LoadingStatus/index.tsx';
 
 export default function Cotalog() {
 
@@ -12,22 +12,21 @@ export default function Cotalog() {
 
     return (
         <>
-            <main className={splitStyle(st.page)}>
-                <section className='p-4 h-full bg-slate-400 overflow-y-scroll'>
-                    <h1 className='font-bold text-3xl text-center'>Eng-China-Quize</h1>
-                    <div>
-                        {learn_data.loading ? <span>Loading...</span> : null}
-                        {learn_data.error ? <span>Error...</span> : null}
-                        {learn_data.data ? <List cases={learn_data.data} /> : <p>None data</p>}
+            <main className={joinStyle(st.page, "max-h-svh")}>
+                <header className='w-full p-3 text-center bg-water-200'>
+                    <h1 className='font-bold text-3xl text-dark-100'>Викторина ПК комплектующих</h1>
+                </header>
+                <section className='bg-slate-400 overflow-y-scroll'>
+                    <div className='p-4'>
+                        {learn_data.loading ? <LoadingStatus /> : null}
+                        {learn_data.error ? <p className='text-center'>Тут какая-то ошибка...</p> : null}
+                        {learn_data.data ? <List cases={learn_data.data} /> : <p className='text-center'>Не вижу данных</p>}
                     </div>
                 </section>
-                <div className='w-full p-2 flex justify-between gap-4 bg-slate-500'>
-                    <Link
-                        to={`/test`}
-                        className='block box-border px-5 py-3 rounded-md bg-black/30 w-max'
-                    >
+                <div className='w-full p-3 flex justify-left items-center gap-4 bg-slate-500 bg-water-200'>
+                    <LinkComponent link={`/test`} hasArrow={true} fullWidth={false}>
                         <span className='text-white font-normal text-lg'>Тестирование</span>
-                    </Link>
+                    </LinkComponent>
                 </div>
             </main>
 
@@ -39,18 +38,14 @@ function Card(props: {
     card: ILearnCase
 }) {
     return (
-        <article className={splitStyle(st.card, "rounded-lg p-4")}>
-            <img className='w-full h-full max-w-[320px] max-h-[320px] object-cover rounded-md' src={props.card.pic.src} alt={props.card.pic.alt} />
-            <div className='box-border '>
-                <h2 className='font-bold text-3xl my-6 text-center'>{props.card.title}</h2>
-
-                <Link
-                    to={`/lesson/${props.card.id}`}
-                    className='block mx-auto box-border px-5 py-3 rounded-md bg-black/30 w-max'
-                >
-                    <span className='text-white font-normal text-lg'>Изучить</span>
-                </Link>
+        <article className={joinStyle(st.card, "rounded-3xl p-4 bg-dark-400 gap-5 shadow-md")}>
+            <img className='w-full h-full max-w-[320px] max-h-[320px] bg-grass-0 object-cover rounded-2xl' src={props.card.pic.src} alt={props.card.pic.alt} />
+            <div className='box-border'>
+                <h2 className='text-2xl mb-4 text-center font-medium'>{props.card.title}</h2>
             </div>
+            <LinkComponent link={`/lesson/${props.card.id}`} hasArrow={true} fullWidth={false}>
+                <span>Изучить</span>
+            </LinkComponent>
         </article>
     )
 }
@@ -58,9 +53,8 @@ function Card(props: {
 function List(props: {
     cases: ILearnCase[]
 }) {
-    React.useEffect(() => console.log(props.cases), [])
     return (
-        <ul className={splitStyle(st.list, "m-0 p-0 w-max h-max")}>
+        <ul className={joinStyle(st.list, "w-full m-0 p-0 h-max")}>
             {
                 props.cases.map((item) => <Card card={item} key={item.id} />)
             }

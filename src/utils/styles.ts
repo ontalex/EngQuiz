@@ -1,3 +1,3 @@
-export function splitStyle(...classes: string[]) {
+export function joinStyle(...classes: string[]) {
     return classes.join(" ");
 }
