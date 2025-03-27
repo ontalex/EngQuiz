@@ -1,9 +1,10 @@
 .page {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: min-content 1fr min-content;
+    /* grid-template-rows: min-content 1fr min-content; */
+    grid-template-rows: 1fr min-content;
 
-    height: 100%;
+    /* height: 100%; */
 }
 
 .card {
@@ -18,4 +19,10 @@
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.input:checked+.item_leng {
+    background-color: #387D82;
+    color: #FFFBFC;
+    font-weight: medium;
 }

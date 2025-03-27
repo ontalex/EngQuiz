@@ -4,22 +4,16 @@
         "title": "Материнская плата",
         "desc": [
             {
-                "leng": "rus",
-                "icon": "/icons/ru.svg",
-                "title": "Материнская плата",
-                "text": "Печатная плата представляющая собой основу конструкций различных электронных устройств."
-            },
-            {
                 "leng": "eng",
                 "icon": "/icons/uk.svg",
                 "title": "Motherboard",
-                "text": "A printed circuit board, which is the basis of the designs of various electronic devices."
+                "text": "The motherboard is one of the key components of a computer, an invisible but fundamental foundation on which the work of the entire system is based. It integrates all other computer components and ensures their interaction, performing the functions of power supply, data transmission and control over the functioning of all devices."
             },
             {
                 "leng": "chn",
                 "icon": "/icons/cn.svg",
                 "title": "主板 (zhú bǎn)",
-                "text": "印刷电路板，是各种电子设备设计的基础 (yìnshuā diànlù bǎn，shì gè zhǒng diànzi shèbèi shèjì de jīchǔ)"
+                "text": "主板是计算机的关键部件之一，是整个系统运行的无形但却基本的基础。它集成了计算机的所有其他组件并确保它们的交互，执行电源、数据传输和控制所有设备功能的功能 \n(Zhǔbǎn shì jìsuànjī de guānjiàn bùjiàn zhī yī, shì zhěnggè xìtǒng yùnxíng de wúxíng dàn què jīběn de jīchǔ. Tā jíchéngle jìsuànjī de suǒyǒu qítā zǔjiàn bìng quèbǎo tāmen de jiāohù, zhíxíng diànyuán, shùjù zhuàn shū hé kòngzhì suǒyǒu shèbèi gōngnéng de gōngnéng.)"
             }
         ],
         "pic": {
@@ -29,7 +23,7 @@
         "audios": [
             {
                 "language": "eng",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/motherboard_eng.mp3",
                 "language_icon": "/icons/uk.svg",
                 "alt": "Motherboard",
                 "text_origin": "Motherboard",
@@ -37,8 +31,8 @@
             },
             {
                 "language": "chn",
-                "src": "/sounds/sample-6s.wav",
                 "language_icon": "/icons/cn.svg",
+                "src": "/sounds/motherboard_chn.mp3",
                 "alt": "#",
                 "text_origin": "主板 (zhú bǎn)",
                 "text_translate": "..."
@@ -50,22 +44,16 @@
         "title": "Монитор",
         "desc": [
             {
-                "leng": "rus",
-                "title": "Монитор",
-                "icon": "/icons/ru.svg",
-                "text": "Это устройство визуального вывода, которое отображает информацию, поступающую от компьютера"
-            },
-            {
                 "leng": "eng",
                 "title": "Monitor",
                 "icon": "/icons/uk.svg",
-                "text": "It is a visual output device that displays information coming from a computer"
+                "text": "A monitor is a device that displays visual information received from a computer. It consists of a screen on which images are generated and control electronics that convert signals into visible images. Modern monitors can have different screen sizes, resolutions and technologies such as TN, MVA or PVA, each of which has its own characteristics and advantages."
             },
             {
                 "leng": "chn",
                 "title": "显示器 (xiǎn shì qì)",
                 "icon": "/icons/cn.svg",
-                "text": "它是一个视觉输出设备，显示来自计算机的信息 (tā shì yī gè shìjué shūchū shèbèi，xiǎnshì láizì jìsuànjī de xìnxī)"
+                "text": "监视器是显示从计算机接收的视觉信息的设备。它由形成图像的屏幕和将信号转换为可见图像的控制电子设备组成。现代显示器有多种屏幕尺寸、分辨率和技术（例如 TN、MVA 或 PVA），每种技术都有自己的功能和优点。\n(Jiānshì qì shì xiǎnshì cóng jìsuànjī jiēshōu de shìjué xìnxī de shèbèi. Tā yóu xíngchéng túxiàng de píngmù hé jiāng xìnhào zhuǎnhuàn wèi kějiàn túxiàng de kòngzhì diànzǐ shèbèi zǔchéng. Xiàndài xiǎnshìqì yǒu duō zhǒng píngmù chǐcùn, fēnbiàn lǜ hé jìshù (lìrú TN,MVA huò PVA), měi zhǒng jìshù dōu yǒu zìjǐ de gōngnéng hé yōudiǎn.)"
             }
         ],
         "pic": {
@@ -75,7 +63,7 @@
         "audios": [
             {
                 "language": "eng",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/monitor_eng.mp3",
                 "language_icon": "/icons/uk.svg",
                 "alt": "#",
                 "text_origin": "Monitor",
@@ -83,7 +71,7 @@
             },
             {
                 "language": "chn",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/monitor_chn.mp3",
                 "language_icon": "/icons/cn.svg",
                 "alt": "#",
                 "text_origin": "显示器 (xiǎn shì qì)",
@@ -96,22 +84,16 @@
         "title": "Компьютерная мышь",
         "desc": [
             {
-                "leng": "rus",
-                "icon": "/icons/ru.svg",
-                "title": "Компьютерная мышь",
-                "text": "Устройство для управления курсором и отдачи различных команд компьютеру"
-            },
-            {
                 "leng": "eng",
                 "icon": "/icons/uk.svg",
                 "title": "Computer mouse",
-                "text": "A device for controlling the cursor and giving various commands to the computer"
+                "text": "A computer mouse is an input device that is used to control the cursor on a computer screen. It consists of a housing, buttons and a sensor that registers movement on the surface. Modern mice can be wired, wireless, and even touch-sensitive, offering different levels of convenience and functionality for users."
             },
             {
                 "leng": "chn",
                 "icon": "/icons/cn.svg",
                 "title": "鼠标 (shǔ biāo)",
-                "text": "控制光标并向计算机发出各种命令的设备 (kòngzhì guāngbiāo bìng xiàng jìsuànjī fāchū gè zhǒng mìnglìng de shèbèi)"
+                "text": "计算机鼠标是一种用于控制计算机屏幕上的光标的输入设备。它由机身、按钮和记录表面运动的传感器组成。现代鼠标可以是有线的、无线的，甚至是触摸式的，为用户提供不同程度的便利性和功能。\n(Jìsuànjī shǔbiāo shì yī zhǒng yòng yú kòngzhì jìsuànjī píngmù shàng de guāngbiāo dì shūrù shèbèi. Tā yóu jī shēn, ànniǔ hé jìlù biǎomiàn yùndòng de chuángǎnqì zǔchéng. Xiàndài shǔbiāo kěyǐ shì yǒuxiàn de, wúxiàn de, shènzhì shì chùmō shì de, wèi yònghù tígōng bùtóng chéngdù de biànlì xìng hé gōngnéng.)"
             }
         ],
         "pic": {
@@ -121,7 +103,7 @@
         "audios": [
             {
                 "language": "eng",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/mouse_eng.mp3",
                 "language_icon": "/icons/uk.svg",
                 "alt": "#",
                 "text_origin": "Computer mouse",
@@ -129,7 +111,7 @@
             },
             {
                 "language": "chn",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/mouse_chn.mp3",
                 "language_icon": "/icons/cn.svg",
                 "alt": "#",
                 "text_origin": "鼠标 (shǔ biāo)",
@@ -142,22 +124,16 @@
         "title": "Корпус компьютера",
         "desc": [
             {
-                "leng": "rus",
-                "icon": "/icons/ru.svg",
-                "title": "Корпус компьютера",
-                "text": "Функциональный элемент, защищающий внутренние компоненты компьютера от внешнего воздействия и механических повреждений"
-            },
-            {
                 "leng": "eng",
                 "icon": "/icons/uk.svg",
                 "title": "Computer case",
-                "text": "A functional element that protects the internal components of the computer from external influences and mechanical damage"
+                "text": "A computer case is a basic load—bearing structure designed to accommodate hardware. It protects internal components from external influences and mechanical damage, as well as maintains the necessary temperature regime and shields electromagnetic radiation. Modern enclosures can come in various shapes and sizes, such as Desktop, MiniTower and Full Tower, depending on user needs and performance requirements."
             },
             {
                 "leng": "chn",
                 "icon": "/icons/cn.svg",
-                "title": "机箱 (jīxiāng)",
-                "text": "保护计算机内部组件免受外部影响和机械损坏的功能元件 (bǎohù jìsuànjī nèibù zǔjiàn miǎn shòu wàibù yǐngxiǎng hé jīxiè sǔnhuài de gōngnéng yuánjiàn)"
+                "title": "電腦機殼 (Diànnǎo jī ké)",
+                "text": "计算机机箱是用于容纳硬件的基本支撑结构。它保护内部组件免受外部影响和机械损坏，还保持所需的温度条件并屏蔽电磁辐射。现代机箱有不同的形状和尺寸，例如台式机、迷你塔式和全塔式，具体取决于用户的需求和性能要求。\n(Jìsuànjī jīxiāng shì yòng yú róngnà yìngjiàn de jīběn zhīchēng jiégòu. Tā bǎohù nèibù zǔjiàn miǎn shòu wàibù yǐngxiǎng hé jīxiè sǔnhuài, hái bǎochí suǒ xū de wēndù tiáojiàn bìng píngbì diàncí fúshè. Xiàndài jīxiāng yǒu bùtóng de xíngzhuàng hé chǐcùn, lìrú táishì jī, mínǐ tǎ shì hé quán tǎ shì, jùtǐ qǔjué yú yònghù de xūqiú hé xìngnéng yāoqiú.)"
             }
         ],
         "pic": {
@@ -167,7 +143,7 @@
         "audios": [
             {
                 "language": "eng",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/case_eng.mp3",
                 "language_icon": "/icons/uk.svg",
                 "alt": "#",
                 "text_origin": "Computer case",
@@ -175,10 +151,10 @@
             },
             {
                 "language": "chn",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/case_chn.mp3",
                 "language_icon": "/icons/cn.svg",
                 "alt": "#",
-                "text_origin": "机箱 (jīxiāng)",
+                "text_origin": "電腦機殼 (Diànnǎo jī ké)",
                 "text_translate": "..."
             }
         ]
@@ -188,22 +164,16 @@
         "title": "Клавиатура",
         "desc": [
             {
-                "leng": "rus",
-                "icon": "/icons/ru.svg",
-                "title": "Клавиатура",
-                "text": "Устройство ввода. Представляет собой набор кнопок, расположенных в определённом порядке"
-            },
-            {
                 "leng": "eng",
                 "icon": "/icons/uk.svg",
                 "title": "Keyboard",
-                "text": "The input device. It is a set of buttons arranged in a certain order"
+                "text": "A keyboard is an input device designed to control the operation of a computer and enter alphanumeric information. It consists of many keys divided into groups, such as control, function, alphanumeric and transition keys. The correct position of the hands and fingers on the keyboard helps to ensure fast and error-free typing."
             },
             {
                 "leng": "chn",
                 "icon": "/icons/cn.svg",
                 "title": "键盘 (jiàn pán)",
-                "text": "输入设备。它是一组按一定顺序排列的按钮 (shūrù shèbèi. tā shì yī zǔ àn yīdìng shùnxù páiliè de ànniǔ)"
+                "text": "键盘是一种输入设备，旨在控制计算机的操作并输入字母数字信息。它由许多键组成，分为控制键、功能键、字母数字键和跳转键等组。手和手指在键盘上的正确位置有助于确保快速且无错误的打字。\n(Jiànpán shì yī zhǒng shūrù shèbèi, zhǐ zài kòngzhì jìsuànjī de cāozuò bìng shūrù zìmǔ shùzì xìnxī. Tā yóu xǔduō jiàn zǔchéng, fēn wéi kòngzhì jiàn, gōngnéng jiàn, zìmǔ shùzì jiàn hé tiào zhuǎn jiàn děng zǔ. Shǒu hé shǒuzhǐ zài jiànpán shàng de zhèngquè wèizhì yǒu zhù yú quèbǎo kuàisù qiě wú cuòwù de dǎzì.)"
             }
         ],
         "pic": {
@@ -213,7 +183,7 @@
         "audios": [
             {
                 "language": "eng",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/keyboard_eng.mp3",
                 "language_icon": "/icons/uk.svg",
                 "alt": "#",
                 "text_origin": "Keyboard",
@@ -221,7 +191,7 @@
             },
             {
                 "language": "chn",
-                "src": "/sounds/sample-6s.wav",
+                "src": "/sounds/keyboard_chn.mp3",
                 "language_icon": "/icons/cn.svg",
                 "alt": "#",
                 "text_origin": "键盘 (jiàn pán)",

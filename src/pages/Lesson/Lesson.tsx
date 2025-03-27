@@ -50,7 +50,10 @@ function Lesson() {
                             alt={data.data?.pic.alt}
                         />
                     </div>
-                    <div className='px-6 py-8 rounded-2xl bg-dark-400 shadow-md'>
+
+                </div>
+                <div className=''>
+                    <div className='w-full min-w-full px-6 py-8 rounded-2xl bg-dark-400 shadow-md mb-4'>
                         <div className='flex justify-items-start'>
                             <ul className='flex items-center border-water-0 border-2 rounded-lg'>
                                 {
@@ -84,15 +87,15 @@ function Lesson() {
                         <h1 className='font-bold text-3xl my-6 text-center'>{data.data?.desc[translateIndex].title}</h1>
                         <p className='text-center font-normal text-lg'>{data.data?.desc[translateIndex].text}</p>
                     </div>
+                    <ul className='w-full min-w-full list-none'>
+                        {data.data?.audios.length == 0 ? <p className='text-center'>Нету аудио файлов</p> : null}
+                        {
+                            data.data?.audios.map(
+                                (audio) => <Audio audio={audio} key={audio.text_origin} />
+                            )
+                        }
+                    </ul>
                 </div>
-                <ul className='w-full min-w-full list-none'>
-                    {data.data?.audios.length == 0 ? <p className='text-center'>Нету аудио файлов</p> : null}
-                    {
-                        data.data?.audios.map(
-                            (audio) => <Audio audio={audio} key={audio.text_origin} />
-                        )
-                    }
-                </ul>
             </section>
         </main>
     )
