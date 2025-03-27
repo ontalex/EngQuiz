@@ -12,7 +12,7 @@
             },
             {
                 "type": "text",
-                "text": "主板 (zhú ban) *"
+                "text": "主板 (zhú ban)"
             },
             {
                 "type": "text",
@@ -32,7 +32,7 @@
         "variants": [
             {
                 "type": "text",
-                "text": "Motherboard *"
+                "text": "Motherboard"
             },
             {
                 "type": "text",
@@ -64,7 +64,7 @@
             },
             {
                 "type": "text",
-                "text": "显示器 (xiǎn shì qì) *"
+                "text": "显示器 (xiǎn shì qì)"
             }
         ],
         "answer": {
@@ -80,7 +80,7 @@
         "variants": [
             {
                 "type": "text",
-                "text": "Monitor *"
+                "text": "Monitor"
             },
             {
                 "type": "text",
@@ -108,7 +108,7 @@
             },
             {
                 "type": "text",
-                "text": "鼠标 (shǔ biāo) *"
+                "text": "鼠标 (shǔ biāo)"
             },
             {
                 "type": "text",
@@ -128,7 +128,7 @@
         "variants": [
             {
                 "type": "text",
-                "text": "Computer mouse *"
+                "text": "Computer mouse"
             },
             {
                 "type": "text",
@@ -156,7 +156,7 @@
             },
             {
                 "type": "text",
-                "text": "電腦機殼 (Diànnǎo jī ké) *"
+                "text": "電腦機殼 (Diànnǎo jī ké)"
             },
             {
                 "type": "text",
@@ -184,7 +184,7 @@
             },
             {
                 "type": "text",
-                "text": "Computer case *"
+                "text": "Computer case"
             }
         ],
         "answer": {
@@ -200,7 +200,7 @@
         "variants": [
             {
                 "type": "text",
-                "text": "键盘 (jiàn pán) *"
+                "text": "键盘 (jiàn pán)"
             },
             {
                 "type": "text",
@@ -224,7 +224,7 @@
         "variants": [
             {
                 "type": "text",
-                "text": "Keyboard *"
+                "text": "Keyboard"
             },
             {
                 "type": "text",
