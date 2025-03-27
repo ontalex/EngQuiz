@@ -129,6 +129,12 @@ export default function Test() {
                     {test.error ? <p>Error...</p> : null}
 
                     {test.varians ? <div>
+                        <div className='flex items-center my-3 gap-3'>
+                            <span>Этап</span>
+                            <span className='p-3 rounded-lg bg-white'>{test.current_state + 1}</span>
+                            <span>из</span>
+                            <span className='p-3 rounded-lg bg-white'>{test.varians.length}</span>
+                        </div>
                         <div className='flex items-center gap-4 mb-4 bg-dark-400 p-5 rounded-lg'>
                             <span className='block w-8 h-8 border-black border-[3px] rounded-full text-center text-[18px] font-sans font-bold'>?</span>
                             {
