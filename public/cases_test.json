@@ -3,20 +3,44 @@
         "id": "001",
         "question": {
             "type": "text",
-            "text": "Question 1"
+            "text": "Выберете правильный перевод слова 'Motherboard'"
         },
         "variants": [
             {
                 "type": "text",
-                "text": "Text 1"
+                "text": "鼠标 (shǔ biāo)"
             },
             {
                 "type": "text",
-                "text": "Text 2"
+                "text": "主板 (zhú ban) *"
             },
             {
                 "type": "text",
-                "text": "Text 3"
+                "text": "键盘 (jiàn pán)"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 1
+        }
+    },
+    {
+        "id": "002",
+        "question": {
+            "type": "text",
+            "text": "Выберете правильный перевод слова 主板 (zhú bǎn)"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "Motherboard *"
+            },
+            {
+                "type": "text",
+                "text": "Monitor"
+            },
+            {
+                "type": "text",
+                "text": "Computer mouse"
             }
         ],
         "answer": {
@@ -24,23 +48,191 @@
         }
     },
     {
-        "id": "002",
+        "id": "003",
         "question": {
             "type": "text",
-            "text": "Question 2"
+            "text": "Выберете правильный перевод слова 'Monitor'"
         },
         "variants": [
             {
                 "type": "text",
-                "text": "Text 1"
+                "text": "電腦機殼 (Diànnǎo jī ké)"
             },
             {
                 "type": "text",
-                "text": "Text 2"
+                "text": "主板 (zhú bǎn)"
             },
             {
                 "type": "text",
-                "text": "Text 3"
+                "text": "显示器 (xiǎn shì qì) *"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 2
+        }
+    },
+    {
+        "id": "004",
+        "question": {
+            "type": "text",
+            "text": "Выберете правильный перевод слова 显示器 (xiǎn shì qì)"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "Monitor *"
+            },
+            {
+                "type": "text",
+                "text": "Computer mouse"
+            },
+            {
+                "type": "text",
+                "text": "Keyboard"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 0
+        }
+    },
+    {
+        "id": "005",
+        "question": {
+            "type": "text",
+            "text": "Выберете правильный перевод слова 'Computer mouse'"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "主板 (zhú bǎn)"
+            },
+            {
+                "type": "text",
+                "text": "鼠标 (shǔ biāo) *"
+            },
+            {
+                "type": "text",
+                "text": "键盘 (jiàn pán)"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 1
+        }
+    },
+    {
+        "id": "006",
+        "question": {
+            "type": "text",
+            "text": "Выберете правильный перевод слова 鼠标 (shǔ biāo)"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "Computer mouse *"
+            },
+            {
+                "type": "text",
+                "text": "Motherboard"
+            },
+            {
+                "type": "text",
+                "text": "Computer case"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 0
+        }
+    },
+    {
+        "id": "007",
+        "question": {
+            "type": "text",
+            "text": "Выберете правильный перевод слова 'Computer case'"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "键盘 (jiàn pán)"
+            },
+            {
+                "type": "text",
+                "text": "電腦機殼 (Diànnǎo jī ké) *"
+            },
+            {
+                "type": "text",
+                "text": "显示器 (xiǎn shì qì)"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 1
+        }
+    },
+    {
+        "id": "008",
+        "question": {
+            "type": "text",
+            "text": "Выберете правильный перевод слова 電腦機殼 (Diànnǎo jī ké)"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "Keyboard"
+            },
+            {
+                "type": "text",
+                "text": "Monitor"
+            },
+            {
+                "type": "text",
+                "text": "Computer case *"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 2
+        }
+    },
+    {
+        "id": "009",
+        "question": {
+            "type": "text",
+            "text": "Выберете правильный перевод слова 'Keyboard'"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "键盘 (jiàn pán) *"
+            },
+            {
+                "type": "text",
+                "text": "鼠标 (shǔ biāo)"
+            },
+            {
+                "type": "text",
+                "text": "主板 (zhú bǎn)"
+            }
+        ],
+        "answer": {
+            "good_answer_index": 0
+        }
+    },
+    {
+        "id": "010",
+        "question": {
+            "type": "text",
+            "text": "Выберете правильный перевод слова 键盘 (jiàn pán)"
+        },
+        "variants": [
+            {
+                "type": "text",
+                "text": "Keyboard *"
+            },
+            {
+                "type": "text",
+                "text": "Monitor"
+            },
+            {
+                "type": "text",
+                "text": "Computer case"
             }
         ],
         "answer": {
